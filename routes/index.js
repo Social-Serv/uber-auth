@@ -6,7 +6,7 @@ let count = 0;
 router.get('/', function(req, res, next) {
   console.log('hello');
   count++;
-  res.status(500).send('Hello World');
+  res.status(500).send('Hello World!');
 });
 
 router.get('/count', function(req, res, next) {
